@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "id": 4,
+      "name": "hello",
+      "email": "hello@gmail.com",
+      "mobile": "9985678996",
+      "address": "rajahmundry",
+      "services": "kulfi"
+    },
+    {
+      "id": 5,
+      "name": "shah house",
+      "email": "shahhouse@gmail.com",
+      "mobile": "8463935102",
+      "address": "nizampet",
+      "services": "biryani"
+    },
+    {
+      "id": 7,
+      "name": "cafecupz",
+      "email": "cafecupz@gmail.com",
+      "mobile": "757890990",
+      "address": "kukatpally",
+      "services": "cafe"
+    }
+  ],
+  "signup": [
+    {
+      "name": "sahithi",
+      "email": "purnasahithimuppidi@gmail.com",
+      "mobile": "8463935102",
+      "password": "Sathvik@5",
+      "id": 1
+    },
+    {
+      "name": "swaroopa",
+      "email": "msrani@gmail.com",
+      "mobile": "9493955756",
+      "password": "rani",
+      "id": 2
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

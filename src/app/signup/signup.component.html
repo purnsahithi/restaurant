@@ -1,0 +1,45 @@
+<p>signup works!</p>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Signup Resto</h1>
+                    <h5>Get free Membership !!!</h5>
+                    <hr/>
+                </div>
+                    <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+                       <div class="row mb-3">
+                         <label  class="col-sm-2 col-form-label">Name</label>
+                         <div class="col-sm-10">
+                           <input formControlName="name" placeholder="Enter Name" type="text" class="form-control" id="inputEmail3">
+                         </div>
+                       </div>
+                       <div class="row mb-3">
+                         <label  class="col-sm-2 col-form-label">Mobile Number</label>
+                         <div class="col-sm-10">
+                          <br>
+                           <input formControlName="mobile" placeholder="Enter Mobile Number"  type="text" class="form-control" id="inputPassword3">
+                         </div>
+                       </div>
+                       <div class="row mb-3">
+                        <label  class="col-sm-2 col-form-label">E-mail</label>
+                        <div class="col-sm-10">
+                          <input formControlName="email" placeholder="Enter Email"  type="email" class="form-control" id="inputPassword3">
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label  class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                          <input formControlName="password" placeholder="Enter Password"  type="password" class="form-control" id="inputPassword3">
+                        </div>
+                      </div>
+                       <button type="submit" class="btn btn-primary">Sign Up</button><br><br>
+                       <a routerLink="/login">Already User ? Click to Login !</a>
+                     </form>
+                     
+            </div>
+        </div>
+    </div>
+   </div>

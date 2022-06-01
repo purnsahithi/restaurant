@@ -1,0 +1,25 @@
+/* 
+.card{
+    background-color: rgb(165, 154, 176);
+    width: 500px;
+   
+}
+.btn{
+    margin-top: 10px;
+    margin-bottom:10px ;
+    margin-left:90px ;
+    margin-right:90px ;
+}
+.frm{
+    width:450px;
+} */
+
+.card{
+    margin-top:15px;
+    border:1px solid blue;
+    width: 600px;
+    padding :40px;
+    position :absolute;
+    top:25%;
+    left:30%;
+}
